@@ -23,8 +23,12 @@ interactive heatmap displayed in CityLayers alongside those predictions.
 ## Data
 
 **Air quality (RSQA)**
-- **RSQA – Multi-Polluants (en continu)** (2013–2025)
-- **Station list** (`liste-des-stations_do_rev_2026-05-22.csv`)
+- **RSQA – Multi-Polluants (en continu)** (2013–2025) — gaseous pollutants
+  (NO2, O3) and particulate matter (PM2.5), continuous measurements.
+  https://donnees.montreal.ca/fr/dataset/rsqa-polluants-gazeux
+- **Station list** (`liste-des-stations_do_rev_2026-05-22.csv`) — station
+  metadata: location, status and monitoring region.
+  https://donnees.montreal.ca/fr/dataset/rsqa-liste-des-stations
 
 **Atmospheric variables**
 - **CHIRPS / CHIRTS** (Climate Hazards Center, UC Santa Barbara)
@@ -38,11 +42,41 @@ measurement data; using it as a label or feature would introduce data leakage
 and hide the underlying pollutant values the model is meant to learn from. It
 may still be used later as an external validation reference.
 
+## Monitoring Network
+
+![Air quality monitoring stations in Montréal](img/initial_map_mtl.jpg)
+
+*Monitoring stations across the Montréal agglomeration, by status: closed
+(fermé), historically closed (fermé-historique), open (ouvert) and
+temperature-only (temp).*
+
+![Air pollution monitoring regions in Montréal](img/mapa_regiones_monitoreo_mtl.jpg)
+
+*Air pollution monitoring regions of the agglomeration (2026), with the
+representative station of each region.*
+
+## State of the Art
+
+The methodological framework is grounded in the following selected references:
+
+- **Rowland et al. (2024)** — analysis of atmospheric variables and their
+  relationship with air pollutants: temperature, wind, rainfall, temporal
+  patterns and thermal inversions.
+- Two additional Spanish-language studies on atmospheric variables and
+  pollutant behaviour, selected from Google Scholar.
+
+**Regulatory references for day classification**
+- **IQA (Indice de la qualité de l'air, Québec – MELCCFP):** per-pollutant
+  sub-index computed as \(\frac{\text{concentration}}{\text{reference value}}
+  \times 50\), with categories Bon (1–25), Acceptable (26–50) and Mauvais (51+).
+  Reference values: O3 82 ppb, PM2.5 35 µg/m³, NO2 213 ppb.
+- **AQHI (Canada):** composite index combining the three pollutants. Note that
+  Québec uses Info-Smog instead of AQHI.
+
 ## Focus
 
 The current task is to classify days as "good" or "bad" based on NO2, O3 and
-PM2.5 concentrations, grounded in scientific literature and official Québec
-(IQA) and Canadian (AQHI) air quality standards.
+PM2.5 concentrations, grounded in the literature and official standards above.
 
 ## Visualization
 
