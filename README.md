@@ -67,7 +67,7 @@ The methodological framework is grounded in the following selected references:
 
 **Regulatory references for day classification**
 - **IQA (Indice de la qualité de l'air, Québec – MELCCFP):** per-pollutant
-  sub-index computed as (concentration / reference value) × 50, with categories
+    sub-index = concentration / reference value × 50, with categories
   Bon (1–25), Acceptable (26–50) and Mauvais (51+). Reference values:
   O3 82 ppb, PM2.5 35 µg/m³, NO2 213 ppb.
 - **AQHI (Canada):** composite index combining the three pollutants. Note that
@@ -75,8 +75,37 @@ The methodological framework is grounded in the following selected references:
 
 ## Focus
 
+The project is split into two complementary modelling tracks, agreed by the
+working team in the first session.
+
+### Air pollution model
+
 The current task is to classify days as "good" or "bad" based on NO2, O3 and
 PM2.5 concentrations, grounded in the literature and official standards above.
+The database is being cleaned and prepared before the model is built.
+
+### Atmospheric conditions model
+
+The atmospheric variables feeding the model are: precipitation, maximum and
+minimum temperature, relative humidity, solar radiation, wind speed and
+atmospheric pressure.
+
+**Data sourcing status and open issues**
+
+- Most available weather databases lack fine spatial resolution: some provide
+  only a single point for the whole of Montréal.
+- **CHIRPS / CHIRTS** offers a useful grid for precipitation and maximum and
+  minimum temperature, but the data are not measured in situ and may not
+  accurately reflect actual weather conditions. They are kept as an option,
+  with this limitation in mind.
+- Two candidate databases are being obtained through **Saeed (NGCI)**:
+  - a database generated from a calibrated model;
+  - a **Hydro-Québec** database of measured atmospheric data — its main
+    limitation is its time span (2021–2025), while the air pollution data run
+    from January 2013 to December 2025.
+- Both are pending delivery and will be explored for suitability before being
+  integrated.
+
 
 ## Visualization
 
