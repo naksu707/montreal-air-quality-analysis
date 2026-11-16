@@ -67,9 +67,9 @@ The methodological framework is grounded in the following selected references:
 
 **Regulatory references for day classification**
 - **IQA (Indice de la qualité de l'air, Québec – MELCCFP):** per-pollutant
-  sub-index computed as \(\frac{\text{concentration}}{\text{reference value}}
-  \times 50\), with categories Bon (1–25), Acceptable (26–50) and Mauvais (51+).
-  Reference values: O3 82 ppb, PM2.5 35 µg/m³, NO2 213 ppb.
+  sub-index computed as (concentration / reference value) × 50, with categories
+  Bon (1–25), Acceptable (26–50) and Mauvais (51+). Reference values:
+  O3 82 ppb, PM2.5 35 µg/m³, NO2 213 ppb.
 - **AQHI (Canada):** composite index combining the three pollutants. Note that
   Québec uses Info-Smog instead of AQHI.
 
