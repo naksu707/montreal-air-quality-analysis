@@ -21,9 +21,6 @@ rsqa_daily_air_quality.csv  (+ build and station reports)             daily, 8 s
 rsqa_daily_clean.csv  (+ rsqa_daily_quality_log.csv)                  analysis-ready
 ```
 
-The first notebook (`airquality_tools4cities.ipynb`) was an initial exploration of every RSQA file
-available. Its findings shaped the decisions below, and it has been replaced by this pipeline.
-
 ---
 
 ## 1. Source data
