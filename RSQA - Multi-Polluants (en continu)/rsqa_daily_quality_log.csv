@@ -1,0 +1,4 @@
+step,rule,rows_affected,action,detail
+2.6,NO2 = 0 for all valid hours (stuck sensor),6,NO2_MEAN / NO2_MEDIAN set to NaN,st 55 2016-04-03; st 99 2014-05-05; st 99 2015-04-24; st 99 2021-04-02; st 99 2021-04-05; st 99 2023-02-03
+2.6,Isolated PM2.5 spike (> p99 and > 3x network median),7,kept + FLAG_PM25_LOCAL_SPIKE,st 31 2016-11-23; st 31 2023-05-25; st 31 2023-05-26; st 80 2018-07-21; st 80 2018-12-13; st 103 2016-06-17; st 103 2025-03-08
+2.8,Classification recomputed after cleaning,0,N_POLLUTANTS / WHO_INDEX / DOMINANT / TIPO_DIA / EXCEEDS_WHO updated,

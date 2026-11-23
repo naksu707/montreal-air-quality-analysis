@@ -1,0 +1,34 @@
+NUMERO_STATION,STATION_NAME,STATUT,LATITUDE,LONGITUDE,ELEVATION_M,hourly_rows,first_timestamp,last_timestamp,has_data,included,reason
+1,Jardin Botanique,fermé,45.56221,-73.571785,59.0,,,,False,False,no data in the hourly files
+3,Saint-Jean-Baptiste,ouvert,45.641026,-73.499682,19.0,113930.0,2013-01-01 01:00:00,2026-01-01,True,True,included
+6,Anjou,ouvert,45.602846,-73.558874,51.0,52584.0,2020-01-01 01:00:00,2026-01-01,True,True,included
+7,Chénier,fermé,45.60176,-73.541992,41.0,52584.0,2013-01-01 01:00:00,2019-01-01,True,False,excluded by status: fermé
+12,Ontario,fermé,45.52055,-73.563222,46.0,,,,False,False,no data in the hourly files
+13,Drummond,fermé,45.497859,-73.573035,52.0,26280.0,2013-01-01 01:00:00,2016-01-01,True,False,excluded by status: fermé
+15,Hampstead,fermé,45.48016,-73.64298,52.0,,,,False,False,no data in the hourly files
+17,Caserne 17,ouvert,45.593325,-73.637328,41.0,113928.0,2013-01-01 01:00:00,2026-01-01,True,True,included
+19,Mont-Royal,fermé,45.51338,-73.64169,50.0,,,,False,False,no data in the hourly files
+21,Quen Mary,fermé,45.47893,-73.63418,65.0,,,,False,False,no data in the hourly files
+23,Westmount,fermé,45.48973,-73.59027,55.0,,,,False,False,no data in the hourly files
+25,Longue-Pointe,temp,45.577526,-73.514796,,,,,False,False,no data in the hourly files
+28,Échangeur Décarie,fermé-historical,45.502648,-73.663913,41.0,113928.0,2013-01-01 01:00:00,2026-01-01,True,False,excluded by status: fermé-historical
+29,Parc Pilon,fermé,45.594576,-73.641535,21.0,8760.0,2013-01-01 01:00:00,2014-01-01,True,False,excluded by status: fermé
+31,Saint-Dominique,ouvert,45.512189,-73.566842,32.0,87648.0,2016-01-01 01:00:00,2026-01-01,True,True,included
+33,Autoroute 13,ouvert,45.48484,-73.72757,32.0,,,,False,False,status kept but no data in the hourly files
+42,Lachine,fermé,45.43322,-73.68089,16.0,,,,False,False,no data in the hourly files
+43,Saint-Michel,fermé,45.563697,-73.610447,60.0,,,,False,False,no data in the hourly files
+49,Dorval,fermé,45.439119,-73.7333,30.0,,,,False,False,no data in the hourly files
+50,Hochelaga-Maisonneuve,fermé-historical,45.539928,-73.540388,25.0,113928.0,2013-01-01 01:00:00,2026-01-01,True,False,excluded by status: fermé-historical
+55,Rivière-des-Prairies,ouvert,45.651722,-73.573896,29.0,113928.0,2013-01-01 01:00:00,2026-01-01,True,True,included
+58,Saint-Léonard,fermé,45.58173,-73.5832,49.0,,,,False,False,no data in the hourly files
+59,Rivière-des-Prairies,fermé,45.652701,-73.562951,33.0,,,,False,False,no data in the hourly files
+60,Roxboro,fermé,45.49444,-73.80778,33.0,,,,False,False,no data in the hourly files
+61,Maisonneuve,fermé,45.501531,-73.574311,56.0,26280.0,2013-01-01 01:00:00,2016-01-01,True,False,excluded by status: fermé
+62,Aéroport de Montréal 2,fermé,45.045755,-73.76734,32.0,,,,False,False,no data in the hourly files
+63,Aéroport de Montréal 3,fermé,45.46152,-73.78629,37.0,,,,False,False,no data in the hourly files
+66,Aéroport de Montréal,fermé,45.468297,-73.741185,33.0,113928.0,2013-01-01 01:00:00,2026-01-01,True,False,excluded by status: fermé
+68,Verdun,fermé,45.472854,-73.57296,21.0,,,,False,False,no data in the hourly files
+80,Saint-Joseph,ouvert,45.542767,-73.572039,53.0,113928.0,2013-01-01 01:00:00,2026-01-01,True,True,included
+86,Ville St-Pierre,fermé,45.44601,-73.65192,23.0,,,,False,False,no data in the hourly files
+99,Sainte-Anne-de-Bellevue,ouvert,45.426509,-73.928944,39.0,113928.0,2013-01-01 01:00:00,2026-01-01,True,True,included
+103,York/Roberval,ouvert,45.464611,-73.582583,25.0,87648.0,2016-01-01 01:00:00,2026-01-01,True,True,included

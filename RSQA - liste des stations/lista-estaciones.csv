@@ -1,0 +1,35 @@
+﻿numero_station;SNPA;statut;nom;latitude;longitude;Élévation
+1;50102;fermé;Jardin Botanique;45.562210;-73.571785;59
+3;50103;ouvert;Saint-Jean-Baptiste ;45.641026;-73.499682;19
+6;50124;ouvert;Anjou;45.602846;-73.558874;51
+7;50133;fermé;Chénier;45.601760;-73.541992;41
+12;50104;fermé;Ontario;45.520550;-73.563222;46
+13;50105;fermé;Drummond;45.497859;-73.573035;52
+15;N/A;fermé;Hampstead;45.480160;-73.642980;52
+17;50135;ouvert;Caserne 17;45.593325;-73.637328;41
+19;N/A;fermé;Mont-Royal;45.513380;-73.641690;50
+21;N/A;fermé;Quen Mary;45.47893;-73.63418;65
+23;N/A;fermé;Westmount;45.489730;-73.590270;55
+28;50109;fermé-historical;Échangeur Décarie;45.502648;-73.663913;41
+29;50110;fermé;Parc Pilon;45.594576;-73.641535;21
+31;50136;ouvert;Saint-Dominique;45.512189;-73.566842;32
+33;50139;ouvert;Autoroute 13;45.48484;-73.72757;32
+42;N/A;fermé;Lachine;45.433220;-73.680890;16
+43;50127;fermé;Saint-Michel;45.563697;-73.610447;60
+49;50123;fermé;Dorval;45.439119;-73.733300;30
+50;50131;fermé-historical;Hochelaga-Maisonneuve;45.539928;-73.540388;25
+55;50129;ouvert;Rivière-des-Prairies;45.651722;-73.573896;29
+58;N/A;fermé;Saint-Léonard;45.581730;-73.583200;49
+59;N/A;fermé;Rivière-des-Prairies;45.652701;-73.562951;33
+60;50120;fermé;Roxboro;45.494440;-73.807780;33
+61;50115;fermé;Maisonneuve;45.501531;-73.574311;56
+62;N/A;fermé;Aéroport de Montréal 2;45.045755;-73.76734;32
+63;N/A;fermé;Aéroport de Montréal 3;45.46152;-73.78629;37
+66;50128;fermé;Aéroport de Montréal;45.468297;-73.741185;33
+68;50116;fermé;Verdun;45.472854;-73.572960;21
+80;50134;ouvert;Saint-Joseph;45.542767;-73.572039;53
+86;N/A;fermé;Ville St-Pierre;45.446010;-73.651920;23
+99;50126;ouvert;Sainte-Anne-de-Bellevue;45.426509;-73.928944;39
+103;50138;ouvert;York/Roberval;45.464611;-73.582583;25
+26-1;N/A;temp;Station Nomade;45.632864;-73.498251;N/A
+25;N/A;temp;Longue-Pointe;45.577526;-73.514796;N/A
