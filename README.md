@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🌫️ Montréal Air Quality Analysis
+# Montréal Air Quality Analysis
 ### Daily air quality, weather and pollution-day prediction for Montréal (2013–2025)
 
 <p>
